@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+	
+}
+#wrapp{
+	width: 90%;
+	margin:  auto;
+}
+header img{
+	float: left;
+	
+}
+header h1{
+	float: right;
+	font-size: 6em;
+	margin-right: 200px;
+	margin-top: 70px;
+	text-shadow: rgb(110,110,110) 10px 10px 15px;
+}
+.clr{
+	clear: both;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 100px;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+nav ul li:first-child {
+	margin-left: 60px;
+	
+}
+nav ul li:hover{
+	color: DimGrey;
+	cursor: pointer;
+}
+article{
+	padding: 30px;
+}
+article img{
+	float: left;
+	margin-right: 50px;
+	width: 650px;
+	height:500px;
+	
+}
+article h2{
+	text-align: center;
+	font-size: 2.2em;
+}
+article p{
+	padding: 30px;
+	font-size: 1.6em;
+}
+.price{
+	font-size: 3em;
+	text-align: center;
+}
+.coming{
+	font-size: 3em;
+	text-align: center;
+}
+.price span{
+	font-size: 1.2em;
+	color: gray;
+}
+.hr{
+	border-bottom: 1px solid gray;
+	box-shadow: 5px 5px 5px sliver;
+	margin: 50px auto;
+}
+footer{
+	height: 120px;
+	background: DarkSlateGrey;
+	padding-top: 30px;
+}
+footer h1{
+	text-align: center;
+	font-size: 2.4em;
+	color: Lavender; 
+}
+@media (max-width:400px){
+	body{
+		width: 100%;
+	}
+	#wrapp{
+		width: 100%;
+		}
+		header img{
+			display: none;
+		}
+}
+#scroll {
+	width: 500px;
+	height: 100px;
+	border: 3px solid black;
+	border-radius: 30px;
+	background: silver;
+	margin: 50px;
+	margin-left: 1050px;
+	line-height: 110px;
+	font-size: 2.5em;
+	text-align: center; 
+	text-shadow: rgb(110,110,110) 10px 10px 15px;
+	margin-top: 1px;
+}
+#timer {
+	color: black;
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 32px;
+	float: right;
+	fon
+}
+
+
+
+
+
+
+
+
+
+
+
+
